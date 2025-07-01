@@ -17,5 +17,8 @@ public static void main(String[] args) {
 	int f2=23;
 	double d3= (double) f2;
 	System.out.println(d3);
+	
+	
+//	System.err.println((--c)+(++b)-(a++)-(++b)-(a)+(--a)+(--c)+(c++)+(--c)-(++b)+c+(b--));
 }
 }
