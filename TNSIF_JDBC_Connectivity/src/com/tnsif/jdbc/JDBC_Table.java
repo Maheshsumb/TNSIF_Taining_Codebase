@@ -17,7 +17,7 @@ public class JDBC_Table {
 	if(connection!=null) {
 		System.out.println("Connection Sccuesfully.........");
 		
-		PreparedStatement preparedStatement = connection.prepareStatement("DROP TABLE tnsif(id int,name text);");
+		PreparedStatement preparedStatement = connection.prepareStatement("CREATE TABLE tnsif(id int,name text);");
 		
 		preparedStatement.executeUpdate();
 		System.out.println("Created...........");
